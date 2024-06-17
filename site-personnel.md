@@ -1,4 +1,6 @@
 # Site Personnel Lists 
+##
+<ha-alert>SalesForce database has been deprecated. Personnel reporting continues in Google sheets for now, but will soon move to the lternet website. Email Marty for permission to edit google sheets if you don't have it. </ha-alert>
 
 ## Overview
 It's helpful to have an overview of how the community platform works before detailing the process of adding new people. There are two major components to the SalesForce installation behind the community platform:
