@@ -4,38 +4,28 @@ SalesForce database has been deprecated. Personnel reporting continues in Google
 <hr>
 
 ## Overview
-It's helpful to have an overview of how the community platform works before detailing the process of adding new people. There are two major components to the SalesForce installation behind the community platform:
-* The Client (or Customer or Constituent) Relationship Management System (CRM) is basically just a relational database that is structured to hold the kind of data that organizations usually need about the people who participate in them. New participants have to be added to the CRM before anything else can happen and licenses to the CRM are expensive (therefore limited to the LTER Network Office, or LNO). 
-* The Community Platform houses the interactions between people ("users") and groups within the Network. Customer user licenses allow individuals to log in, easily update their own information, join and leave groups, post updates, and ask questions.  The thing that ties these two components together is a relationship between a single "contact" (created by the Network Office) and the related "user" (created by the Network Office when a person is added and updated by the individual).
 
-![](images/community-platform-overview.png)
+Rather than having an individual simply associated with a site or not, we attempt to maintain a record of prior associations and allow multiple simultaneous associations (with different sites, in different roles, and with different institutions) for individuals. This is valuable for understanding how individuals interact with the Network across their careers. To accomplish it, however, we need to update **affiliations**, rather than just sites.
 
+> [!NOTE]  
+> The API function was rarely used and has been deprecated for now. If you are likely to use it, please get in touch with Marty.
 
-Rather than having an individual simply associated with a site or not, the new system maintains a record of prior associations and allows multiple simultaneous associations (with different sites, in different roles, and with different institutions). This is valuable for understanding how individuals interact with the Network across their careers. To accomplish it, however, we need to update **affiliations**, rather than just sites.
+> The CRM also has an API function that will allow you to access the personnel list for your site and display it on your own website or access it for completing NSF reporting functions. The API was updated in April 2022 to return first and last names separately. [Documentation is available](https://drive.google.com/drive/u/0/folders/16o6nnSpGZ2asWDhU5PgP2tVHsJcirUGI) on the Google drive and John Porter wrote up a nice [DataBits article](https://lternet.edu/stories/using-the-lterhub-directory-api-to-perform-site-tasks/) on using it. 
 
-The CRM also has an API function that will allow you to access the personnel list for your site and display it on your own website or access it for completing NSF reporting functions. The API was updated in April 2022 to return first and last names separately. [Documentation is available](https://drive.google.com/drive/u/0/folders/16o6nnSpGZ2asWDhU5PgP2tVHsJcirUGI) on the Google drive and John Porter wrote up a nice [DataBits article](https://lternet.edu/stories/using-the-lterhub-directory-api-to-perform-site-tasks/) on using it. 
+## Making bulk updates **(new July 27, 2024)**
 
-## Making individual updates
-
-Sometimes, it's important to add an individual to your site right away. To add key personnel to your site between major updates, simply email Marty with the new user's name, role, and email address. The LNO will create a contact and a user for them and trigger a message for them to log in and fill in other key information.
-
-Once a user is created and they have logged in, they are able to update their own information from their user profile in the top right corner. User-editable information includes email (which automatically updates the login email within 24 hours), site and institutional affiliations, ORCID, social media accounts, and research interests. 
-   
-If information needs to be updated that is not user-editable (or a user is unwilling to edit their own information), email Marty and describe the needed change(s).
-
-## Making bulk updates **(new January 12, 2022)**
-
-Usually, there are a few times a year when many people need to be added at once. Edits to LTER site personnel can now be made directly in [the LTERHub-ex-im google sheets document](https://docs.google.com/spreadsheets/d/1TSmzt-Cg2xIKlJ3uin8EoMclACThkPiWqwroG3JoPdQ/edit#gid=293749749). Lead site information managers for each site have read access to the file, but edit permissions will be granted on a sheet-by-sheet basis to only one individual per site.
+Usually, there are a few times a year when many people need to be added at once. Edits to LTER site personnel can be made directly in [the LTERHub-ex-im google sheets document](https://docs.google.com/spreadsheets/d/1TSmzt-Cg2xIKlJ3uin8EoMclACThkPiWqwroG3JoPdQ/edit#gid=293749749). Lead site information managers for each site have read access to the file. Edit permissions will be granted on a sheet-by-sheet basis to one individual per site.
    
 *Note that Google sheets, unlike Excel sheets or csv files, save data continuously as it is entered.*
 
 ### Overall workflow ###
--  The LTERHub-ex-im file automatically creates a backup and downloads current information from the LTERHub **on the 15th of each month**. If your edits have not been pushed up to the database when this happens, they will be lost.
 -  Each site has its own tab in the spreadsheet. Before you plan to make edits, please identify one editor per site and request file edit access for them by emailing Marty. 
--  Using the instructions below, make edits to your site's personnel list. Where you do not have changes to make, simply leave the field blank or with the existing information. 
--  While you are making edits, your case remains open in LTERHub. When edits are completed, notify the LTER Network Office - either by email or by submitting a case in LTERHub. 
--  At this time, data is still being manually pushed to LTERHub, so that any unexpected behaviors can be quickly identified and corrected. When we have pushed your data, we will notify you, so you can easily confirm that the information is correct.
--  Your case will be closed out.
+-  Using the instructions below, make edits to your site's personnel list. Where you do not have changes to make, simply leave the the existing information.
+-  Add new individuals and new affiliations to the bottom of the list, leaving the SalesForce ID coumns blank
+- Notify Marty when you have made a batch of updates
+
+### Individual Updates ###
+For the moment, we are focused on bulk updates. The LNO will announce a new process (and training) for individual updates in the near future.
 
 ### Row and Column Descriptions ###
 
