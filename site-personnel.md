@@ -7,11 +7,6 @@ SalesForce database has been deprecated. Personnel reporting continues in Google
 
 Rather than having an individual simply associated with a site or not, we attempt to maintain a record of prior associations and allow multiple simultaneous associations (with different sites, in different roles, and with different institutions) for individuals. This is valuable for understanding how individuals interact with the Network across their careers. To accomplish it, however, we need to update **affiliations**, rather than just sites.
 
-> [!NOTE]  
-> The API function was rarely used and has been deprecated for now. If you are likely to use it, please get in touch with Marty.
-
-> The CRM also has an API function that will allow you to access the personnel list for your site and display it on your own website or access it for completing NSF reporting functions. The API was updated in April 2022 to return first and last names separately. [Documentation is available](https://drive.google.com/drive/u/0/folders/16o6nnSpGZ2asWDhU5PgP2tVHsJcirUGI) on the Google drive and John Porter wrote up a nice [DataBits article](https://lternet.edu/stories/using-the-lterhub-directory-api-to-perform-site-tasks/) on using it. 
-
 ## Making bulk updates **(new July 27, 2024)**
 
 Usually, there are a few times a year when many people need to be added at once. Edits to LTER site personnel can be made directly in [the LTERHub-ex-im google sheets document](https://docs.google.com/spreadsheets/d/1TSmzt-Cg2xIKlJ3uin8EoMclACThkPiWqwroG3JoPdQ/edit#gid=293749749). Lead site information managers for each site have read access to the file. Edit permissions will be granted on a sheet-by-sheet basis to one individual per site.
@@ -27,7 +22,11 @@ Usually, there are a few times a year when many people need to be added at once.
 ### Individual Updates ###
 For the moment, we are focused on bulk updates. The LNO will announce a new process (and training) for individual updates in the near future.
 
-### Row and Column Descriptions ###
+> [!NOTE]  
+> The API function was rarely used and has been deprecated for now. If you are likely to use it, please get in touch with Marty.
+> The CRM also has an API function that will allow you to access the personnel list for your site and display it on your own website or access it for completing NSF reporting functions. The API was updated in April 2022 to return first and last names separately. [Documentation is available](https://drive.google.com/drive/u/0/folders/16o6nnSpGZ2asWDhU5PgP2tVHsJcirUGI) on the Google drive and John Porter wrote up a nice [DataBits article](https://lternet.edu/stories/using-the-lterhub-directory-api-to-perform-site-tasks/) on using it. 
+
+## Row and Column Descriptions ##
 
 #### Rows ####
 
