@@ -1,4 +1,4 @@
-remote_theme: pages-themes/dinky@v0.2.0
+remote_theme: pages-themes/leap-day
 title: [LTER Information Manager's Manual]
 description: [A getting started guide]
 date: "`r format(Sys.time(), '%d %B, %Y')`"
