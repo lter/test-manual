@@ -1,6 +1,6 @@
 # Site Personnel Lists 
 
-> :Important:
+> [!NOTE]
 > SalesForce database has been deprecated. Personnel reporting continues in Google sheets for now, but is moving to the lternet website. Email Marty for permission to edit google sheets if you don't have it.
 
 ## Overview
