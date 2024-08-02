@@ -15,4 +15,3 @@ What do you need to do?
 * [Establish a site GitHub Repository](github-organization-recs.md)
 * [Suggest edits to the IM Manual](https://lter.github.io/im-manual/edits)
 
-  Update modified date 
