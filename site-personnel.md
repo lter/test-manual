@@ -1,7 +1,7 @@
 # Site Personnel Lists 
 
-> :Note: 
-> SalesForce database has been deprecated. Personnel reporting continues in Google sheets for now, but is moving to the lternet website. Email Marty for permission to edit google sheets if you don't have it.
+>[!Note] 
+>SalesForce database has been deprecated. Personnel reporting continues in Google sheets for now, but is moving to the lternet website. Email Marty for permission to edit google sheets if you don't have it.
 
 ## Overview
 
@@ -11,8 +11,8 @@ Rather than having an individual simply associated with a site or not, we strive
 
 Usually, there are a few times a year when many people need to be added at once. Edits to LTER site personnel can be made directly in [the LTERHub-ex-im google sheets document](https://docs.google.com/spreadsheets/d/1TSmzt-Cg2xIKlJ3uin8EoMclACThkPiWqwroG3JoPdQ/edit#gid=293749749). Lead site information managers and designated updaters for each site have read access to the file. Edit permissions will be granted on a sheet-by-sheet basis to one designated updater per site.
    
-> [!NOTE]
-> Note that Google sheets, unlike Excel sheets or csv files, save data continuously as they are entered.*
+>[!NOTE]
+>Note that Google sheets, unlike Excel sheets or csv files, save data continuously as they are entered.*
 
 ### Overall workflow ###
 -  Each site has its own tab in the spreadsheet. Before you plan to make edits, please identify one editor per site and request file edit access for them by emailing Marty. 
