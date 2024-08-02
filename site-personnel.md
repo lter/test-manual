@@ -1,7 +1,7 @@
 # Site Personnel Lists 
 
->[!Note] 
->SalesForce database has been deprecated. Personnel reporting continues in Google sheets for now, but is moving to the lternet website. Email Marty for permission to edit google sheets if you don't have it.
+> [!NOTE] 
+> SalesForce database has been deprecated. Personnel reporting continues in Google sheets for now, but is moving to the lternet website. Email Marty for permission to edit google sheets if you don't have it.
 
 ## Overview
 
@@ -11,8 +11,8 @@ Rather than having an individual simply associated with a site or not, we strive
 
 Usually, there are a few times a year when many people need to be added at once. Edits to LTER site personnel can be made directly in [the LTERHub-ex-im google sheets document](https://docs.google.com/spreadsheets/d/1TSmzt-Cg2xIKlJ3uin8EoMclACThkPiWqwroG3JoPdQ/edit#gid=293749749). Lead site information managers and designated updaters for each site have read access to the file. Edit permissions will be granted on a sheet-by-sheet basis to one designated updater per site.
    
->[!NOTE]
->Note that Google sheets, unlike Excel sheets or csv files, save data continuously as they are entered.*
+> [!NOTE]
+> Note that Google sheets, unlike Excel sheets or csv files, save data continuously as they are entered.*
 
 ### Overall workflow ###
 -  Each site has its own tab in the spreadsheet. Before you plan to make edits, please identify one editor per site and request file edit access for them by emailing Marty. 
@@ -87,7 +87,7 @@ For the moment, we are focused on bulk updates. The LNO will announce a new proc
 * **Ending roles:** To end a role for an individual, simply enter the year that they stopped serving in that role into the "End Year (Affiliation)" field. If they never served that role, please contact Marty Downs (downs@nceas.ucsb.edu) for troubleshooting assistance.
 
 * **Former participants:**
-> [!CAUTION]
+> [!WARNING]  
 > We are currently resolving an issue with the display of former participants on the [LTER directory](https://lternet.edu/directory/). For the moment, please ensure that the affiliation status in the LTER-ex-im Google sheet is correct and we will resolve the directory display as soon as possible.
 
 Once an individual has left the site, please change their "Status (Affiliation)" field to "Former". If you can make a fair guess at an end year, include that information under "End Year". If you can't guess within a year or two, leave it blank. 
