@@ -87,7 +87,7 @@ For the moment, we are focused on bulk updates. The LNO will announce a new proc
 * **Ending roles:** To end a role for an individual, simply enter the year that they stopped serving in that role into the "End Year (Affiliation)" field. If they never served that role, please contact Marty Downs (downs@nceas.ucsb.edu) for troubleshooting assistance.
 
 * **Former participants:**
-> [!NOTE-caution]
+> [!CAUTION]
 > We are currently resolving an issue with the display of former participants on the [LTER directory](https://lternet.edu/directory/). For the moment, please ensure that the affiliation status in the LTER-ex-im Google sheet is correct and we will resolve the directory display as soon as possible.
 
 Once an individual has left the site, please change their "Status (Affiliation)" field to "Former". If you can make a fair guess at an end year, include that information under "End Year". If you can't guess within a year or two, leave it blank. 
