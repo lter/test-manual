@@ -1,30 +1,30 @@
 # Site Personnel Lists 
-##
-SalesForce database has been deprecated. Personnel reporting continues in Google sheets for now, but will soon move to the lternet website. Email Marty for permission to edit google sheets if you don't have it.
-<hr>
+
+> [!NOTE]  
+> SalesForce database has been deprecated. Personnel reporting continues in Google sheets for now, but is moving to the lternet website. Email Marty for permission to edit google sheets if you don't have it.
 
 ## Overview
 
-Rather than having an individual simply associated with a site or not, we attempt to maintain a record of prior associations and allow multiple simultaneous associations (with different sites, in different roles, and with different institutions) for individuals. This is valuable for understanding how individuals interact with the Network across their careers. To accomplish it, however, we need to update **affiliations**, rather than just sites.
+Rather than having an individual simply associated with a site or not, we strive to maintain a record of prior associations and allow multiple simultaneous associations (with different sites, in different roles, and with different institutions) for individuals. This is valuable for understanding how individuals interact with the Network across their careers. To accomplish it, however, we need to update **affiliations**, (a record of person-site-role-time period) rather than just people's current affiliation with a site.
 
 ## Making bulk updates **(new July 27, 2024)**
 
-Usually, there are a few times a year when many people need to be added at once. Edits to LTER site personnel can be made directly in [the LTERHub-ex-im google sheets document](https://docs.google.com/spreadsheets/d/1TSmzt-Cg2xIKlJ3uin8EoMclACThkPiWqwroG3JoPdQ/edit#gid=293749749). Lead site information managers for each site have read access to the file. Edit permissions will be granted on a sheet-by-sheet basis to one individual per site.
+Usually, there are a few times a year when many people need to be added at once. Edits to LTER site personnel can be made directly in [the LTERHub-ex-im google sheets document](https://docs.google.com/spreadsheets/d/1TSmzt-Cg2xIKlJ3uin8EoMclACThkPiWqwroG3JoPdQ/edit#gid=293749749). Lead site information managers and designated updaters for each site have read access to the file. Edit permissions will be granted on a sheet-by-sheet basis to one designated updater per site.
    
-*Note that Google sheets, unlike Excel sheets or csv files, save data continuously as it is entered.*
+> [!NOTE]
+> Note that Google sheets, unlike Excel sheets or csv files, save data continuously as they are entered.*
 
 ### Overall workflow ###
 -  Each site has its own tab in the spreadsheet. Before you plan to make edits, please identify one editor per site and request file edit access for them by emailing Marty. 
 -  Using the instructions below, make edits to your site's personnel list. Where you do not have changes to make, simply leave the the existing information.
--  Add new individuals and new affiliations to the bottom of the list, leaving the SalesForce ID coumns blank
-- Notify Marty when you have made a batch of updates
+-  Add new individuals and new affiliations to the bottom of the list, leaving the SalesForce ID columns blank
+-  **IMPORTANT: Notify Marty when you have made a batch of updates**
 
 ### Individual Updates ###
 For the moment, we are focused on bulk updates. The LNO will announce a new process (and training) for individual updates in the near future.
 
 > [!NOTE]  
-> The API function was rarely used and has been deprecated for now. If you are likely to use it, please get in touch with Marty.
-> The CRM also has an API function that will allow you to access the personnel list for your site and display it on your own website or access it for completing NSF reporting functions. The API was updated in April 2022 to return first and last names separately. [Documentation is available](https://drive.google.com/drive/u/0/folders/16o6nnSpGZ2asWDhU5PgP2tVHsJcirUGI) on the Google drive and John Porter wrote up a nice [DataBits article](https://lternet.edu/stories/using-the-lterhub-directory-api-to-perform-site-tasks/) on using it. 
+> The API function was part of SalesForce and was rarely used. It has been deprecated temporarily. Once the transition to website updating is complete, we can re-establish it.
 
 ## Row and Column Descriptions ##
 
@@ -55,7 +55,7 @@ For the moment, we are focused on bulk updates. The LNO will announce a new proc
    -  P.  **Contact-Site ID**: If your site uses a unique identifier for individuals that could aid in matching site and network-level information, this is the place to enter it. If you do not use such a system, please leave this field blank.	*(Located at the end as only a few sites use this field.)*
 
 -  **Affiliation-related information:**
-   -  K.  **Role (Affiliation)**: Recall that participants may have multiple simultaneous affiliations. This field holds the role for one type of affiliation with a particular site. The (limited) choices for this field are available in the drop down. Please DO NOT add choices that do not appear in the drop down selector. Options for "Role" are detailed later on this page.
+   -  K.  **Role (Affiliation)**: Recall that participants may have multiple simultaneous affiliations. This field holds the role for one affiliation with a particular site. The (limited) choices for this field are available in the drop down. Please DO NOT add choices that do not appear in the drop down selector. [Options for "Role"](#Detailed-Field-descriptions-and-options) are detailed later on this page.
    -  L.  **Start Year (Affiliation)**: The year that this affiliation started - to the best of your knowledge. This information is not strictly required and participants can update this information directly when they register on the site.
    -  M.  **End Year (Affiliation)**: 	The year that this affiliation ended - to the best of your knowledge. This information is not strictly required and participants can update this information directly when they register on the site. When an entered end year is less than the current year, the affiliation status will be automatically converted to "Former" at the time data is uploaded.
    -  N.  **Status (Affiliation)**: Status" has 2 options: "Current" or "Former." This reflects an individual's affiliation *with the site*. All newly affiliated individuals should be listed as "Current." When an individual leaves your site, they should be identified as "Former" for your site and an end date entered for their role. When their status changes to "Former" at all sites with which they had an affiliation, their LTER status will automatically change to "Inactive". As long as they maintain an active affiliation with any LTER site, their LTER status will be "Active." This field controls whether individuals appear in the site directory for the affiliated site.
@@ -86,7 +86,11 @@ For the moment, we are focused on bulk updates. The LNO will announce a new proc
 
 * **Ending roles:** To end a role for an individual, simply enter the year that they stopped serving in that role into the "End Year (Affiliation)" field. If they never served that role, please contact Marty Downs (downs@nceas.ucsb.edu) for troubleshooting assistance.
 
-* **Former participants:** Only current participants should be displaying in the [LTER directory](https://lternetwork.force.com/lterhub/s/directory). If individuals are showing up that are no longer affiliated with your site, it's usually because the LTER Network Office has no information to indicate that they are no longer actively associated with your site. In these cases, simply change the "Status (Affiliation)" field to "Former". If you can make a fair guess at an end year, include that information. If you can't guess within a year or two, leave it blank. 
+* **Former participants:**
+> [!NOTE-caution]
+> We are currently resolving an issue with the display of former participants on the [LTER directory](https://lternet.edu/directory/). For the moment, please ensure that the affiliation status in the LTER-ex-im Google sheet is correct and we will resolve the directory display as soon as possible.
+
+Once an individual has left the site, please change their "Status (Affiliation)" field to "Former". If you can make a fair guess at an end year, include that information under "End Year". If you can't guess within a year or two, leave it blank. 
 
 ## Detailed Field descriptions and options 
 
